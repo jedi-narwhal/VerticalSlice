@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: 7aba86daf3dfe4ecbb63e0731c820e69
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a840c31e0af844eeb7f57398b7b105f
+      internalID: -1591276944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 132
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a7572f0cc2d4b87b017ad59d32b122
+      internalID: 1498366184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 132
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34746c0b984964ddb97270256a6b5d0d
+      internalID: -667156081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 132
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be404e7553ad44e3483f07474bf84f3a
+      internalID: -936536150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 132
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac913d63fe149e3960cce8a301b389
+      internalID: 908307134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de56a95df1e724b16920f1b92460b378
+      internalID: 953769514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 99
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f5bec61ab524eca80c323211f6ed9f
+      internalID: 1203683976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 99
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd0489e150d4d65be43cd38c4b7b2e
+      internalID: -204984694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4440aacd32547b4af0aac4d893a589
+      internalID: -902464728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 99
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0271c3119a5e34448b95def7ade2a3b9
+      internalID: 965871795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47ae5d3b3a0646fa888cfd5d6fac1a9
+      internalID: -1712435952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5b4f067d5ce4a0c9321b45340f6111
+      internalID: -710759375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e4f9afd5ac4beb9c2c642178b0caa
+      internalID: -787372281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 66
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c4378c60e7f4c05a3fa36523bb5301
+      internalID: -1990094378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 66
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0778490b982a9413ab416c5f13e12861
+      internalID: -1927515678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1cbcb77550f4e33a6bdd84a8062f59
+      internalID: 351731270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eacef109a1064cc4a0a0d8737474aa3
+      internalID: 2055907782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b606258e2ed4f8cb668759a7bf75dd
+      internalID: 1813794208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb2c799d34140009f01b5013751792
+      internalID: -1920346476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de4f44c7d0804df2b1824dc7fae5f3f
+      internalID: -1599873955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e545e1c2ca6c34007b7c9605fea446d4
+      internalID: 1408122046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868839905235045289c34617d1ae3026
+      internalID: -1757294144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392dcfab2604947528211aded7c51024
+      internalID: 1006166410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24db3654d77b64f4fbe449a749c4dd87
+      internalID: -477946528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScifiCritters4-Picsart-BackgroundRemover_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32.8
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0050833c61d4849bb5014e6252ac58
+      internalID: -1255840756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ScifiCritters4-Picsart-BackgroundRemover_0: -1591276944
+      ScifiCritters4-Picsart-BackgroundRemover_1: 1498366184
+      ScifiCritters4-Picsart-BackgroundRemover_10: -1712435952
+      ScifiCritters4-Picsart-BackgroundRemover_11: -710759375
+      ScifiCritters4-Picsart-BackgroundRemover_12: -787372281
+      ScifiCritters4-Picsart-BackgroundRemover_13: -1990094378
+      ScifiCritters4-Picsart-BackgroundRemover_14: -1927515678
+      ScifiCritters4-Picsart-BackgroundRemover_15: 351731270
+      ScifiCritters4-Picsart-BackgroundRemover_16: 2055907782
+      ScifiCritters4-Picsart-BackgroundRemover_17: 1813794208
+      ScifiCritters4-Picsart-BackgroundRemover_18: -1920346476
+      ScifiCritters4-Picsart-BackgroundRemover_19: -1599873955
+      ScifiCritters4-Picsart-BackgroundRemover_2: -667156081
+      ScifiCritters4-Picsart-BackgroundRemover_20: 1408122046
+      ScifiCritters4-Picsart-BackgroundRemover_21: -1757294144
+      ScifiCritters4-Picsart-BackgroundRemover_22: 1006166410
+      ScifiCritters4-Picsart-BackgroundRemover_23: -477946528
+      ScifiCritters4-Picsart-BackgroundRemover_24: -1255840756
+      ScifiCritters4-Picsart-BackgroundRemover_3: -936536150
+      ScifiCritters4-Picsart-BackgroundRemover_4: 908307134
+      ScifiCritters4-Picsart-BackgroundRemover_5: 953769514
+      ScifiCritters4-Picsart-BackgroundRemover_6: 1203683976
+      ScifiCritters4-Picsart-BackgroundRemover_7: -204984694
+      ScifiCritters4-Picsart-BackgroundRemover_8: -902464728
+      ScifiCritters4-Picsart-BackgroundRemover_9: 965871795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
