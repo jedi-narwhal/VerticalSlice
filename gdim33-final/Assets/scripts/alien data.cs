@@ -1,20 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
 
 
 [CreateAssetMenu(fileName = "Aliens", menuName = "ScriptableObjects/AlienData")]
-public class alien : ScriptableObject
+public class  Alien : ScriptableObject
 {
    public string npc_name;
    public Sprite npc;
 
    public string description;
 
-   public bool is_anamoly;
+   public bool eyesWrong;
 
-   public bool is_correct;
+   public bool upperbodywrong;
+
+   public bool lowerbodyWrong;
+
+   
 
 }
