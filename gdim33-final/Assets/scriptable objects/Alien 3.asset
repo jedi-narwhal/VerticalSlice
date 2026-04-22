@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68301ebc17064821b193b5e0ab4c2f3, type: 3}
   m_Name: Alien 3
   m_EditorClassIdentifier: 
-  npc_name: 
-  npc: {fileID: 0}
-  description: 
-  is_anamoly: 1
-  is_correct: 0
+  npc_name: Crabby
+  npc: {fileID: -1591276944, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
+  description: ddd
+  eyesWrong: 0
+  upperbodywrong: 0
+  lowerbodyWrong: 0

@@ -1,31 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using TMPro;
 
 public class aliendisplay : MonoBehaviour
 {
-   [SerializeField] private Alien alien;
+    public Image alienImage;
 
-    public string npc_name;
-   public Sprite npc;
+    public TMP_Text alienName;
 
-   public string description;
-
-   public bool hasAnamoly;
-
+    public List<Alien> _allAliens = new List<Alien>(); 
+    
+    private int _currentIndex=0;
 
 
-
-
-
-    void Start()
+    void Awake()
     {
-        
+        _currentIndex=0;
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()    
     {
+        UpdateAlienUI();
+    }
+
+    public void NextAlien()
+    {
+        if (_allAliens.Count == 0)
+        {
+            
+            return;
+        }
+
+        _currentIndex++;
         
+        if (_currentIndex >= _allAliens.Count) 
+        {
+            _currentIndex = 0; 
+        }
+        
+        UpdateAlienUI();
+    }
+
+    private void UpdateAlienUI()
+    {
+        if (_allAliens.Count > 0)
+        {
+    
+            alienImage.sprite = _allAliens[_currentIndex].npc;
+            alienName.text= _allAliens[_currentIndex].npc_name;
+        }
     }
 }
+

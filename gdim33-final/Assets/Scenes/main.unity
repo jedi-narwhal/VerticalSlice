@@ -389,7 +389,6 @@ GameObject:
   - component: {fileID: 342962006}
   - component: {fileID: 342962005}
   - component: {fileID: 342962004}
-  - component: {fileID: 342962007}
   m_Layer: 5
   m_Name: deny
   m_TagString: Untagged
@@ -461,7 +460,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 342962007}
+      - m_Target: {fileID: 690264045}
         m_TargetAssemblyTypeName: buttons, Assembly-CSharp
         m_MethodName: Ondeny
         m_Mode: 1
@@ -511,20 +510,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342962002}
   m_CullTransparentMesh: 1
---- !u!114 &342962007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342962002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c0d7ce0e9bd46129a24c298b625c61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _score: 0
-  _scoretext: {fileID: 2010822106}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +809,7 @@ GameObject:
   - component: {fileID: 690264043}
   - component: {fileID: 690264042}
   - component: {fileID: 690264041}
+  - component: {fileID: 690264045}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -919,6 +905,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &690264045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690264040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c0d7ce0e9bd46129a24c298b625c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scoretext: {fileID: 2010822106}
+  aliendisplay: {fileID: 1675670368}
 --- !u!1 &720608977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,7 +1065,6 @@ GameObject:
   - component: {fileID: 924530247}
   - component: {fileID: 924530246}
   - component: {fileID: 924530245}
-  - component: {fileID: 924530244}
   m_Layer: 5
   m_Name: accept
   m_TagString: Untagged
@@ -1093,20 +1092,6 @@ RectTransform:
   m_AnchoredPosition: {x: -99.311, y: -83}
   m_SizeDelta: {x: 198.62, y: -317.1327}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &924530244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924530242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c0d7ce0e9bd46129a24c298b625c61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _score: 0
-  _scoretext: {fileID: 2010822106}
 --- !u!114 &924530245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1151,7 +1136,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 924530244}
+      - m_Target: {fileID: 690264045}
         m_TargetAssemblyTypeName: buttons, Assembly-CSharp
         m_MethodName: Onaccept
         m_Mode: 1
@@ -1423,6 +1408,7 @@ GameObject:
   - component: {fileID: 1675670365}
   - component: {fileID: 1675670367}
   - component: {fileID: 1675670366}
+  - component: {fileID: 1675670368}
   m_Layer: 5
   m_Name: aliens
   m_TagString: Untagged
@@ -1487,6 +1473,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675670364}
   m_CullTransparentMesh: 1
+--- !u!114 &1675670368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675670364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311b2574af9c84689bbfa16ef9b6ecaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alienImage: {fileID: 1675670366}
+  alienName: {fileID: 0}
+  _allAliens:
+  - {fileID: 11400000, guid: 262b8f1688f504c01b46c00412a92a2f, type: 2}
+  - {fileID: 11400000, guid: 564692be7f0df43c693ae758145b7a16, type: 2}
+  - {fileID: 11400000, guid: f89daabcfe7384187b85abb1462a99c4, type: 2}
 --- !u!1 &1749650309
 GameObject:
   m_ObjectHideFlags: 0
