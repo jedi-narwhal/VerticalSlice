@@ -49,7 +49,7 @@ public class aliendisplay : MonoBehaviour
         {
     
             alienImage.sprite = _allAliens[_currentIndex].npc;
-            alienName.text= _allAliens[_currentIndex].npc_name;
+            //alienName.text= _allAliens[_currentIndex].npc_name;
         }
     }
 }
