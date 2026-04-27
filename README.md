@@ -1,6 +1,7 @@
 # GDIM33 Vertical Slice
 ## Milestone 1 Devlog
-Milestone 1 Devlog goes here.
+### Question #1
+### Question #2
 ## Milestone 2 Devlog
 Milestone 2 Devlog goes here.
 ## Milestone 3 Devlog
