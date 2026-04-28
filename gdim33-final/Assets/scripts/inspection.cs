@@ -35,11 +35,12 @@ public class inspection : MonoBehaviour
             detail.SetActive(false);
         }
     }
-    public void SetupButton(Alien alienpic )
+    public void SetupButton(Alien currentAlien )
     {
+               _button.onClick.RemoveAllListeners();
                 _button.onClick.AddListener(delegate
             {
-                ZoomIn(alienpic);
+                ZoomIn(currentAlien);
             });
     }
 

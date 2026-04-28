@@ -11,6 +11,7 @@ public class aliendisplay : MonoBehaviour
     public TMP_Text alienName;
 
     public List<Alien> _allAliens = new List<Alien>(); 
+    public inspection detailedViewer;
     
     private int _currentIndex=0;
 
@@ -47,9 +48,14 @@ public class aliendisplay : MonoBehaviour
     {
         if (_allAliens.Count > 0)
         {
-    
+            Alien currentAlien = _allAliens[_currentIndex];
             alienImage.sprite = _allAliens[_currentIndex].npc;
             //alienName.text= _allAliens[_currentIndex].npc_name;
+
+            if (detailedViewer != null)
+            {
+                detailedViewer.SetupButton(currentAlien);
+            }
         }
     }
 }
