@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using Unity.VisualScripting;
 
 
 public class buttons : MonoBehaviour
@@ -9,6 +10,7 @@ public class buttons : MonoBehaviour
     public static int _score;
     public TMP_Text _scoretext;
     public aliendisplay aliendisplay;
+    public GameObject currentAlien;
     void Start()
     {
         _score= 0;
@@ -26,6 +28,7 @@ public class buttons : MonoBehaviour
         _score++;
         _scoretext.text= "score: " + _score.ToString();
         UpdateAlienUI();
+        TriggerAlienDeparture();
     }
 
     public void Ondeny()
@@ -33,14 +36,25 @@ public class buttons : MonoBehaviour
         _score--;
         _scoretext.text= "score: " + _score.ToString();
         UpdateAlienUI();
-        
+        TriggerAlienDeparture();
     }
 public void UpdateAlienUI()
     {
         if (aliendisplay !=null)
         {
            aliendisplay.NextAlien();
+
         }
     }
+
+public void TriggerAlienDeparture()
+    {
+        if (currentAlien != null)
+        {
+  
+            CustomEvent.Trigger(currentAlien, "Decision");
+        }
+    }
+
 
 }
