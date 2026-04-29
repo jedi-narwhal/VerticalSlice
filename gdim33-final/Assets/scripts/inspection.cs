@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class inspection : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class inspection : MonoBehaviour
     
     public Image _InspectImage;
     
+    public TMP_Text _descriptiontext;
   
 
     public List<Alien> _allAliens = new List<Alien>(); 
@@ -35,13 +37,27 @@ public class inspection : MonoBehaviour
             detail.SetActive(false);
         }
     }
-    public void SetupButton(Alien currentAlien )
+
+    public void Description(Alien traits)
+    {
+        _descriptiontext.text = traits.description;
+    }
+
+
+
+    public void SetupButton(Alien currentAlien)
     {
                _button.onClick.RemoveAllListeners();
                 _button.onClick.AddListener(delegate
+                
             {
                 ZoomIn(currentAlien);
             });
     }
+
+
+
+
+
 
 }

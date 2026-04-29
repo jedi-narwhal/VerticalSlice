@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc_name: 'zod '
   npc: {fileID: -902464728, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: cyborg from Zottron
-  is_anamoly: 0
-  is_correct: 1
+  description: eyes brown, silver body
+  eyesWrong: 0
+  upperbodywrong: 0
+  lowerbodyWrong: 0

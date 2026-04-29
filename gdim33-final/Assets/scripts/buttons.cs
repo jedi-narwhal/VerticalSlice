@@ -27,7 +27,7 @@ public class buttons : MonoBehaviour
     {
         _score++;
         _scoretext.text= "score: " + _score.ToString();
-        UpdateAlienUI();
+        //UpdateAlienUI();
         TriggerAlienDeparture();
     }
 
@@ -35,7 +35,7 @@ public class buttons : MonoBehaviour
     {
         _score--;
         _scoretext.text= "score: " + _score.ToString();
-        UpdateAlienUI();
+        //UpdateAlienUI();
         TriggerAlienDeparture();
     }
 public void UpdateAlienUI()
@@ -49,9 +49,10 @@ public void UpdateAlienUI()
 
 public void TriggerAlienDeparture()
     {
+        Debug.Log("code");
         if (currentAlien != null)
         {
-  
+            Debug.Log("ifcode");
             CustomEvent.Trigger(currentAlien, "Decision");
         }
     }

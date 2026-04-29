@@ -12,7 +12,7 @@ public class aliendisplay : MonoBehaviour
 
     public List<Alien> _allAliens = new List<Alien>(); 
     public inspection detailedViewer;
-    
+     public buttons alienbutton;
     private int _currentIndex=0;
 
 
@@ -55,7 +55,9 @@ public class aliendisplay : MonoBehaviour
             if (detailedViewer != null)
             {
                 detailedViewer.SetupButton(currentAlien);
+                
             }
+            //alienbutton.currentAlien = currentAlien.GameObject();
         }
     }
 }
