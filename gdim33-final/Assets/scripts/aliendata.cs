@@ -20,6 +20,8 @@ public class  Alien : ScriptableObject
 
    public bool lowerbodyWrong;
 
+   public bool is_correct;
+
    
 
 }

@@ -25,10 +25,11 @@ public class buttons : MonoBehaviour
 
     public void Onaccept()
     {
+        //if statement to check if the alien makched
         _score++;
         _scoretext.text= "score: " + _score.ToString();
         //UpdateAlienUI();
-        TriggerAlienDeparture();
+        //TriggerAlienDeparture();
     }
 
     public void Ondeny()
@@ -36,7 +37,7 @@ public class buttons : MonoBehaviour
         _score--;
         _scoretext.text= "score: " + _score.ToString();
         //UpdateAlienUI();
-        TriggerAlienDeparture();
+        //TriggerAlienDeparture();
     }
 public void UpdateAlienUI()
     {
@@ -47,15 +48,15 @@ public void UpdateAlienUI()
         }
     }
 
-public void TriggerAlienDeparture()
-    {
-        Debug.Log("code");
-        if (currentAlien != null)
-        {
-            Debug.Log("ifcode");
-            CustomEvent.Trigger(currentAlien, "Decision");
-        }
-    }
+// public void TriggerAlienDeparture()
+//     {
+//         Debug.Log("code");
+//         if (currentAlien != null)
+//         {
+//             Debug.Log("ifcode");
+//             CustomEvent.Trigger(currentAlien, "Decision");
+//         }
+//     }
 
 
 }
