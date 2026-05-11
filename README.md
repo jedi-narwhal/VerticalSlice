@@ -9,7 +9,16 @@ Here is how my visual scripting graph works. The purpose of my visual scripting 
   In the npc arrival state, deals with the npc itself. The ui image containing the npc sprite via scriptable object is first placed on a set loacation on enter state so it runs before the logic. On update, it gets the ui image current location and moves it to a set location and triggers an event. This event starts the timer to switch states. This interacts with my npc system moving the sprite contained in teh npc scriptable object across and into the cue. It also is has the same version of the sprite magnifined in the inspection window.
   In the npc departure state deals with the npc leaving the scene. First, on enter state the ui accept/deny buttons are deactivated. This interacts with y ui system and makes it clear that there has been a state change. It also prevents the player to cheat and move on to the next game object. On update, it gets the npc's location and moves it toward a point at the exit of the queue to simulate it is leaving.  This interacts with my npc system moving the sprite contained in teh npc scriptable object across and into the cue. It also is has the same version of the sprite magnifined in the inspection window.
 ## Milestone 2 Devlog
-Milestone 2 Devlog goes here.
+### Question #1: Making the inspection description cycle with the sprite
+1. Add description to scriptable object
+- fill the information in code for what the scriptable object is going to hold including the description
+- in the unity, create one scriptable object and fill in the inspector with the data you want
+2. create that node in visual scripting
+- use type options to attach C# method, dont forget to regernerate nodes.
+- also we have to add a varaible for the scripatble objects that can be attached
+3. Putting it in visual scrpting/logic
+- find in gameloop (state machine) where the sprite is being updated
+- update the text with the sprite: needing a text mesh pro for the actual text, the object with our game, the c# method that we regenerated
 ## Milestone 3 Devlog
 Milestone 3 Devlog goes here.
 ## Milestone 4 Devlog
