@@ -707,10 +707,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 690264045}
-        m_TargetAssemblyTypeName: buttons, Assembly-CSharp
-        m_MethodName: Ondeny
-        m_Mode: 1
+      - m_Target: {fileID: 690264047}
+        m_TargetAssemblyTypeName: gamemanager, Assembly-CSharp
+        m_MethodName: CheckAccuracy
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1073,6 +1073,7 @@ GameObject:
   - component: {fileID: 690264041}
   - component: {fileID: 690264045}
   - component: {fileID: 690264046}
+  - component: {fileID: 690264047}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1184,7 +1185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scoretext: {fileID: 2010822106}
   aliendisplay: {fileID: 1675670368}
-  currentAlien: {fileID: 0}
+  _gamemanager: {fileID: 690264047}
 --- !u!114 &690264046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,12 +1200,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detail: {fileID: 71731676}
   _InspectImage: {fileID: 71731677}
-  _descriptiontext: {fileID: 0}
+  _descriptiontext: {fileID: 163623305}
   _allAliens:
   - {fileID: 11400000, guid: 262b8f1688f504c01b46c00412a92a2f, type: 2}
   - {fileID: 11400000, guid: 564692be7f0df43c693ae758145b7a16, type: 2}
   - {fileID: 11400000, guid: f89daabcfe7384187b85abb1462a99c4, type: 2}
   _button: {fileID: 1230993140}
+--- !u!114 &690264047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690264040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff7a97348be545a0a2cf2417b31e116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scoretext: {fileID: 2010822106}
+  aliendisplay: {fileID: 1675670368}
+  panel: {fileID: 0}
 --- !u!1 &720608977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,17 +1499,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 690264045}
-        m_TargetAssemblyTypeName: buttons, Assembly-CSharp
-        m_MethodName: Onaccept
-        m_Mode: 1
+      - m_Target: {fileID: 690264047}
+        m_TargetAssemblyTypeName: gamemanager, Assembly-CSharp
+        m_MethodName: CheckAccuracy
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &924530246
 MonoBehaviour:
@@ -1826,12 +1842,12 @@ GameObject:
   - component: {fileID: 1663689899}
   - component: {fileID: 1663689898}
   m_Layer: 5
-  m_Name: start
+  m_Name: end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1663689898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,13 +1999,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienImage: {fileID: 1675670366}
-  alienName: {fileID: 0}
   _allAliens:
   - {fileID: 11400000, guid: 262b8f1688f504c01b46c00412a92a2f, type: 2}
   - {fileID: 11400000, guid: 564692be7f0df43c693ae758145b7a16, type: 2}
   - {fileID: 11400000, guid: f89daabcfe7384187b85abb1462a99c4, type: 2}
   detailedViewer: {fileID: 690264046}
   alienbutton: {fileID: 690264045}
+  _currentIndex: 0
+  _gamemanager: {fileID: 690264047}
+  currentAlien: {fileID: 0}
 --- !u!114 &1675670370
 MonoBehaviour:
   m_ObjectHideFlags: 0

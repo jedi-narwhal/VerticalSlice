@@ -7,19 +7,28 @@ using TMPro;
 public class aliendisplay : MonoBehaviour
 {
     public Image alienImage;
-
-    public TMP_Text alienName;
-
     public List<Alien> _allAliens = new List<Alien>(); 
     public inspection detailedViewer;
      public buttons alienbutton;
-    private int _currentIndex=0;
+    public int _currentIndex;
+    public gamemanager _gamemanager;
 
 
-    void Awake()
-    {
+   public static aliendisplay Instance { get; private set; }
+    public Alien currentAlien;
+    private void Awake() {
         _currentIndex=0;
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+            return;
+
+        }
+        Instance = this;
     }
+
+
+
 
     void Start()    
     {
@@ -38,7 +47,9 @@ public class aliendisplay : MonoBehaviour
         
         if (_currentIndex >= _allAliens.Count) 
         {
-            _currentIndex = 0; 
+            _gamemanager.FinalScoreScreen();
+            return;
+
         }
         
         UpdateAlienUI();
@@ -46,18 +57,16 @@ public class aliendisplay : MonoBehaviour
 
     private void UpdateAlienUI()
     {
+        
         if (_allAliens.Count > 0)
         {
-            Alien currentAlien = _allAliens[_currentIndex];
+             currentAlien = _allAliens[_currentIndex];
             alienImage.sprite = _allAliens[_currentIndex].npc;
-            //alienName.text= _allAliens[_currentIndex].npc_name;
-
-            if (detailedViewer != null)
-            {
-                detailedViewer.SetupButton(currentAlien);
+            
+            detailedViewer.SetupButton(currentAlien);
                 
-            }
-            //alienbutton.currentAlien = currentAlien.GameObject();
+  
+            
         }
     }
 }

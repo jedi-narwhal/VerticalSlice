@@ -10,7 +10,10 @@ public class buttons : MonoBehaviour
     public static int _score;
     public TMP_Text _scoretext;
     public aliendisplay aliendisplay;
-    public GameObject currentAlien;
+
+
+    public gamemanager _gamemanager;
+      
     void Start()
     {
         _score= 0;
@@ -18,45 +21,13 @@ public class buttons : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void Onaccept()
-    {
-        //if statement to check if the alien makched
-        _score++;
-        _scoretext.text= "score: " + _score.ToString();
-        //UpdateAlienUI();
-        //TriggerAlienDeparture();
-    }
-
-    public void Ondeny()
-    {
-        _score--;
-        _scoretext.text= "score: " + _score.ToString();
-        //UpdateAlienUI();
-        //TriggerAlienDeparture();
-    }
+ 
 public void UpdateAlienUI()
     {
-        if (aliendisplay !=null)
-        {
-           aliendisplay.NextAlien();
-
-        }
+        aliendisplay.NextAlien();
     }
 
-// public void TriggerAlienDeparture()
-//     {
-//         Debug.Log("code");
-//         if (currentAlien != null)
-//         {
-//             Debug.Log("ifcode");
-//             CustomEvent.Trigger(currentAlien, "Decision");
-//         }
-//     }
+
 
 
 }

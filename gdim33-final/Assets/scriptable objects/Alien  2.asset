@@ -18,3 +18,4 @@ MonoBehaviour:
   eyesWrong: 0
   upperbodywrong: 0
   lowerbodyWrong: 0
+  is_admitted: 0
