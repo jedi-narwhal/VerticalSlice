@@ -19,6 +19,14 @@ Here is how my visual scripting graph works. The purpose of my visual scripting 
 3. Putting it in visual scrpting/logic
 - find in gameloop (state machine) where the sprite is being updated
 - update the text with the sprite: needing a text mesh pro for the actual text, the object with our game, the c# method that we regenerated
+### Question #2: Breakdown Activity Reflection
+
+### Question #3: Bridging Visual Scripting
+Here is how I bridge visual scripting in my code. I bridge my thing in visual scripting in my statemachine during the NPC arrival state. Specifcally, In the "on enter state" it sets the location the beginning of the door and updates to the next alien and also updates the text with that aliens description. The method I bridged with is the Next Alien method I coded in my C# graph which checks for if there is aliens, and if there is updates with the next Alien Scirptable Object. In this bridge, I am calling a C# method from the graph in order to get the next Alien so it can update the sprite and the description with information from the scriptable object. 
+<img width="1190" height="654" alt="Screenshot 2026-05-13 at 12 14 33 PM" src="https://github.com/user-attachments/assets/eff38454-eca6-4a66-aeac-d07c1bd053d3" />
+
+### Question #4: Unity System
+
 ## Milestone 3 Devlog
 Milestone 3 Devlog goes here.
 ## Milestone 4 Devlog
