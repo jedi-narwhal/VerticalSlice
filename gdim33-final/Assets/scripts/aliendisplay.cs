@@ -35,12 +35,12 @@ public class aliendisplay : MonoBehaviour
         UpdateAlienUI();
     }
 
-    public void NextAlien()
+    public Alien NextAlien()
     {
         if (_allAliens.Count == 0)
         {
             
-            return;
+            return null;
         }
 
         _currentIndex++;
@@ -48,11 +48,12 @@ public class aliendisplay : MonoBehaviour
         if (_currentIndex >= _allAliens.Count) 
         {
             _gamemanager.FinalScoreScreen();
-            return;
+            return null;
 
         }
         
         UpdateAlienUI();
+        return currentAlien;
     }
 
     private void UpdateAlienUI()
