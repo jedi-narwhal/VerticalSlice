@@ -16,12 +16,6 @@ public class  Alien : ScriptableObject
 
    public string description;
 
-   public bool eyesWrong;
-
-   public bool upperbodywrong;
-
-   public bool lowerbodyWrong;
-
    public bool is_admitted;
 
    
