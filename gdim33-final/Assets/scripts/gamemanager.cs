@@ -13,7 +13,8 @@ public class gamemanager : MonoBehaviour
    public static int _score;
     public TMP_Text _scoretext;
     public aliendisplay aliendisplay;
-    public GameObject panel;
+    public GameObject endscreen;
+    public TMP_Text finalscoretext;
   //final text score needs to be implemetned and hooked up in inspector
 
 
@@ -23,7 +24,7 @@ public void Start()
     {
         _score= 0;
         _scoretext.text= "score:0";
-         panel.SetActive(false);
+         endscreen.SetActive(false);
         
     }
 
@@ -44,18 +45,18 @@ public void CheckAccuracy (bool playeraccept)
 
 public void FinalScoreScreen()
     {
-        panel.SetActive(true);
+        endscreen.SetActive(true);
         UpdateScoreText();
     }
 public void UpdateScoreText()
     {
-        if (_score >= 30)
+        if (_score >= 2)
         {
-            _scoretext.text= "You got promoted";
+            finalscoretext.text= "You got promoted";
         }
         else
         {
-            _scoretext.text= " You are fired";
+            finalscoretext.text= " You are fired";
         }
     }
 
