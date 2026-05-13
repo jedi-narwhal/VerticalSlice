@@ -17,7 +17,7 @@ public class aliendisplay : MonoBehaviour
    public static aliendisplay Instance { get; private set; }
     public Alien currentAlien;
     private void Awake() {
-        _currentIndex=0;
+        _currentIndex=-1;
         if (Instance != null && Instance != this)
         {
             Destroy(this);

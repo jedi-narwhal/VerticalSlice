@@ -14,14 +14,7 @@ public class gamemanager : MonoBehaviour
     public TMP_Text _scoretext;
     public aliendisplay aliendisplay;
     public GameObject panel;
-   //make singleton
-
-
- 
-
-
-
-
+  //final text score needs to be implemetned and hooked up in inspector
 
 
 
