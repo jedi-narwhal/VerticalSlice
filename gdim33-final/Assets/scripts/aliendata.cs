@@ -12,6 +12,8 @@ public class  Alien : ScriptableObject
    public string npc_name;
    public Sprite npc;
 
+   public Sprite body_part;
+
    public string description;
 
    public bool eyesWrong;

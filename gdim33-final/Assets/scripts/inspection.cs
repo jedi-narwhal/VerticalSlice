@@ -9,7 +9,6 @@ public class inspection : MonoBehaviour
     
     public GameObject  detail;
     
-    
     public Image _InspectImage;
     
     public TMP_Text _descriptiontext;
@@ -24,7 +23,7 @@ public class inspection : MonoBehaviour
     
     public void ZoomIn(Alien alienpic)
     {
-        _InspectImage.sprite = alienpic.npc; 
+        _InspectImage.sprite = alienpic.body_part; 
         detail.SetActive(true);    
         
     }
