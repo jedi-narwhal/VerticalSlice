@@ -9,24 +9,29 @@ Here is how my visual scripting graph works. The purpose of my visual scripting 
   In the npc arrival state, deals with the npc itself. The ui image containing the npc sprite via scriptable object is first placed on a set loacation on enter state so it runs before the logic. On update, it gets the ui image current location and moves it to a set location and triggers an event. This event starts the timer to switch states. This interacts with my npc system moving the sprite contained in teh npc scriptable object across and into the cue. It also is has the same version of the sprite magnifined in the inspection window.
   In the npc departure state deals with the npc leaving the scene. First, on enter state the ui accept/deny buttons are deactivated. This interacts with y ui system and makes it clear that there has been a state change. It also prevents the player to cheat and move on to the next game object. On update, it gets the npc's location and moves it toward a point at the exit of the queue to simulate it is leaving.  This interacts with my npc system moving the sprite contained in teh npc scriptable object across and into the cue. It also is has the same version of the sprite magnifined in the inspection window.
 ## Milestone 2 Devlog
-### Question #1: Making the inspection description cycle with the sprite
-1. Add description to scriptable object
-- fill the information in code for what the scriptable object is going to hold including the description
-- in the unity, create one scriptable object and fill in the inspector with the data you want
-2. create that node in visual scripting
-- use type options to attach C# method, dont forget to regernerate nodes.
-- also we have to add a varaible for the scripatble objects that can be attached
-3. Putting it in visual scrpting/logic
-- find in gameloop (state machine) where the sprite is being updated
-- update the text with the sprite: needing a text mesh pro for the actual text, the object with our game, the c# method that we regenerated
+### Question #1: Telling whether the player got promoted or fired
+1. Add is_admitted to scriptable object
+- Fill the bool in code for what the scriptable object is going to say whether the npc is going to be admitted or not
+- In the unity, create one scriptable object and fill in the inspector to check which scriptable objects are going to be admitted based on the description. 
+2. Check the players accuracy
+- I have to create a variable that gets the current scriptable object representing the Alien  which is going to be called by a signleton
+-  Create a bool that represents the players choice: whether they chose accept of deny
+-  If statement that if the current alien = what the player chose, the score will update otherwise the score will decrease
+3. Calculate Whether the Player got promoted or fire based on score ( end screen)
+- Must iterate through all the list of the alien Scripatble objects first, which is connected to the AlienDisplay Script.
+- Deactivate end screen in the start and then reactivate it. 
+- Updates score text based on the ones answered correctly.
+4. Putting everything in the inspector
+- Hook up all the game objects in the inspector with the respective variables that were created in the code.
 ### Question #2: Breakdown Activity Reflection
+Yes, I feel like my breakdowns helped me with the process of creating this feature. I think this was helpful because I was able to break down a complaicated problem into more, easier steps. I feel like the step on hooking it up in the editor was also helpful because I tend to get confused on that. To improve the breakdowns, I list spcific ways i can break them into actual method that I'm going to use.
 
 ### Question #3: Bridging Visual Scripting
 Here is how I bridge visual scripting in my code. I bridge my thing in visual scripting in my statemachine during the NPC arrival state. Specifcally, In the "on enter state" it sets the location the beginning of the door and updates to the next alien and also updates the text with that aliens description. The method I bridged with is the Next Alien method I coded in my C# graph which checks for if there is aliens, and if there is updates with the next Alien Scirptable Object. In this bridge, I am calling a C# method from the graph in order to get the next Alien so it can update the sprite and the description with information from the scriptable object. 
 <img width="1190" height="654" alt="Screenshot 2026-05-13 at 12 14 33 PM" src="https://github.com/user-attachments/assets/eff38454-eca6-4a66-aeac-d07c1bd053d3" />
 
 ### Question #4: Unity System
-
+My Unity sytem I chose to grade is after all of the NPCs visit, the player is rewarded, punished, or scored based on how accurate their assessments were. I chose to update the score while in game nd based on what you get, you are either promoted or fired.
 ## Milestone 3 Devlog
 Milestone 3 Devlog goes here.
 ## Milestone 4 Devlog
