@@ -10,13 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f68301ebc17064821b193b5e0ab4c2f3, type: 3}
-  m_Name: Alien 3
+  m_Name: Alien2
   m_EditorClassIdentifier: 
-  npc_name: Crabby
-  npc: {fileID: 2055907782, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  body_part: {fileID: 965871795, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: one eye green
-  eyesWrong: 0
-  upperbodywrong: 0
-  lowerbodyWrong: 0
-  is_admitted: 1
+  npc_name: yo gabba gabba
+  npc: {fileID: -1712435952, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
+  body_part: {fileID: -1757294144, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
+  description: is free of parasites
+  is_admitted: 0
