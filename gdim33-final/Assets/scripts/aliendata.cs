@@ -19,5 +19,4 @@ public class  Alien : ScriptableObject
    public bool is_admitted;
 
    
-
 }
