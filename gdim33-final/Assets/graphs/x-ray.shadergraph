@@ -5,9 +5,6 @@
     "m_Properties": [
         {
             "m_Id": "6f9a6229adce4ca9b0a82192cf08b5c4"
-        },
-        {
-            "m_Id": "8df7d25269114e66ae5762939a1ff178"
         }
     ],
     "m_Keywords": [],
@@ -418,9 +415,6 @@
     "m_ChildObjectList": [
         {
             "m_Id": "6f9a6229adce4ca9b0a82192cf08b5c4"
-        },
-        {
-            "m_Id": "8df7d25269114e66ae5762939a1ff178"
         }
     ]
 }
@@ -515,36 +509,6 @@
     "m_Property": {
         "m_Id": "6f9a6229adce4ca9b0a82192cf08b5c4"
     }
-}
-
-{
-    "m_SGVersion": 3,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
-    "m_ObjectId": "8df7d25269114e66ae5762939a1ff178",
-    "m_Guid": {
-        "m_GuidSerialized": "15999c28-521d-406d-942c-a1663698eb00"
-    },
-    "m_Name": "XrayColor",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "XrayColor",
-    "m_DefaultReferenceName": "_XrayColor",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
-    },
-    "isMainColor": false,
-    "m_ColorMode": 1
 }
 
 {
