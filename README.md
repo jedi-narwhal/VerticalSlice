@@ -35,11 +35,17 @@ My Unity sytem I chose to grade is after all of the NPCs visit, the player is re
 ## Milestone 3 Devlog
 ### Question #1: Shader Graph
 Here is a what is going on in my shader graph. The base color slot receives a color input that has been inverted by a one minus node after being sampled from the RGBA input from the main(T2) texture property. Also, the alpha gets the transparency,from the color inversionfrom the sample texture 2d node's Alpha input. Last, the alpha clip threshold is set to 0.1 so it creates a thin outline on the sprite rather than  the whole image being inverted. 
+
 Graph:
+
 <img width="590" height="412" alt="Screenshot 2026-05-27 at 10 59 26 AM" src="https://github.com/user-attachments/assets/4ba2cdfc-af66-4296-9fbc-f64bd63144a7" />
+
 Before:
+
 <img width="76" height="95" alt="Screenshot 2026-05-27 at 11 01 32 AM" src="https://github.com/user-attachments/assets/9c410b3e-2936-4399-b1b3-b7293d5ccdaa" />
+
 After:
+
 <img width="146" height="234" alt="Screenshot 2026-05-27 at 11 07 24 AM" src="https://github.com/user-attachments/assets/0f045762-02ee-4545-b684-4371cde5d161" />
 
 
