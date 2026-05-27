@@ -48,7 +48,11 @@ After:
 
 <img width="146" height="234" alt="Screenshot 2026-05-27 at 11 07 24 AM" src="https://github.com/user-attachments/assets/0f045762-02ee-4545-b684-4371cde5d161" />
 
+### Question #2: Improvements
+Here are the improvements I made since last playtesting. First, I made the npcs come and exit faster. I did this by adjusting my speed variable in my visual scripting graph. I also noticed this affected my transition time. Because of this, I had had to also to decrease the transition time. This contributed to the speed of the overall game. In addition, I fixed the bug of the ui click button popping up when the end screen popped up. Lastly, I added more npcs so that it can improve overall gameplay.
 
+### Question #3: Content
+Here is the new content I added since last milestone. First, I added a "click on the alien to inspect" ui. I found that in my milestone 2 build, people were having trouble to know when to click the alien. I also added 2 new npcs. This gives the player more chances to play the game. 
 
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
