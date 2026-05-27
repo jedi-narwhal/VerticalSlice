@@ -14,6 +14,7 @@ public class  Alien : ScriptableObject
 
    public Sprite body_part;
 
+   [TextArea(3, 10)]
    public string description;
 
    public bool is_admitted;
