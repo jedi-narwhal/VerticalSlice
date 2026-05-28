@@ -14,6 +14,7 @@ public class aliendisplay : MonoBehaviour
     public gamemanager _gamemanager;
 
 
+
    public static aliendisplay Instance { get; private set; }
     public Alien currentAlien;
     private void Awake() {
@@ -63,7 +64,6 @@ public class aliendisplay : MonoBehaviour
         {
              currentAlien = _allAliens[_currentIndex];
             alienImage.sprite = _allAliens[_currentIndex].npc;
-            
             detailedViewer.SetupButton(currentAlien);
                 
   

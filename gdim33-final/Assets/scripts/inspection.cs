@@ -13,18 +13,20 @@ public class inspection : MonoBehaviour
     
     public TMP_Text _descriptiontext;
   
+    public Image alien;
 
     public List<Alien> _allAliens = new List<Alien>(); 
     [SerializeField] private Button _button;
 
-
+    public Material _material;
 
 
     
     public void ZoomIn(Alien alienpic)
     {
         _InspectImage.sprite = alienpic.body_part; 
-        detail.SetActive(true);    
+        detail.SetActive(true); 
+        
         
     }
 
@@ -39,7 +41,10 @@ public class inspection : MonoBehaviour
     {
         _descriptiontext.text = traits.description;
     }
-
+    public void Changematerial()
+    {
+        alien.material= _material;
+    }
 
 
     public void SetupButton(Alien currentAlien)
@@ -49,6 +54,7 @@ public class inspection : MonoBehaviour
                 
             {
                 ZoomIn(currentAlien);
+                Changematerial();
             });
     }
 
