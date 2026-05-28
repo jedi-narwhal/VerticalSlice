@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npc_name: 
   npc: {fileID: -667156081, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  body_part: {fileID: 0}
-  description: 
-  is_admitted: 0
+  body_part: {fileID: -1920346476, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
+  description: '-looks like an elephant
+
+    -internal organs are purple
+
+    -hosts
+    a creature on it'
+  is_admitted: 1

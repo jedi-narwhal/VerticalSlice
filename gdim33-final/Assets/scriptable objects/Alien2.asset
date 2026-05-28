@@ -15,5 +15,10 @@ MonoBehaviour:
   npc_name: yo gabba gabba
   npc: {fileID: -1712435952, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
   body_part: {fileID: -1757294144, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: -free of parasites
+  description: '- the green sustances on it is actually pink
+
+    - free of parasites
+
+    -
+    is not an alien'
   is_admitted: 0
