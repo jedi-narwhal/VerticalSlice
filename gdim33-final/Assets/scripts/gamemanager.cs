@@ -50,7 +50,7 @@ public void FinalScoreScreen()
     }
 public void UpdateScoreText()
     {
-        if (_score >= 2)
+        if (_score >= 4)
         {
             finalscoretext.text= "You got promoted";
         }
