@@ -15,5 +15,5 @@ MonoBehaviour:
   npc_name: 'zod '
   npc: {fileID: 351731270, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
   body_part: {fileID: -1599873955, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: '-Has a brown internal computing system '
+  description: "-Has a brown internal computing system \n"
   is_admitted: 1

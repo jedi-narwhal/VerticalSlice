@@ -15,5 +15,5 @@ MonoBehaviour:
   npc_name: 
   npc: {fileID: -1591276944, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
   body_part: {fileID: 2055907782, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: 'is the bacteria present on the spider '
+  description: -bacteria is present on the spider
   is_admitted: 1

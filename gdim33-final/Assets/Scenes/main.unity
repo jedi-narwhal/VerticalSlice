@@ -1753,6 +1753,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 262b8f1688f504c01b46c00412a92a2f, type: 2}
   - {fileID: 11400000, guid: 564692be7f0df43c693ae758145b7a16, type: 2}
   - {fileID: 11400000, guid: f89daabcfe7384187b85abb1462a99c4, type: 2}
+  - {fileID: 11400000, guid: 04a13001441c84339be715cf152ae1a7, type: 2}
+  - {fileID: 11400000, guid: c5645b3f8ad6b44f2b643f987f2acf42, type: 2}
   detailedViewer: {fileID: 690264046}
   alienbutton: {fileID: 690264045}
   _currentIndex: 0

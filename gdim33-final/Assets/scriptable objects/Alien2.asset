@@ -15,5 +15,5 @@ MonoBehaviour:
   npc_name: yo gabba gabba
   npc: {fileID: -1712435952, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
   body_part: {fileID: -1757294144, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: is free of parasites
+  description: -free of parasites
   is_admitted: 0
