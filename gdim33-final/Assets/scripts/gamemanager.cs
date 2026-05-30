@@ -15,11 +15,9 @@ public class gamemanager : MonoBehaviour
     public aliendisplay aliendisplay;
     public GameObject endscreen;
     public TMP_Text finalscoretext;
-  //final text score needs to be implemetned and hooked up in inspector
 
 
-
-    // Start is called before the first frame update
+    
 public void Start()
     {
         _score= 0;
@@ -60,14 +58,5 @@ public void UpdateScoreText()
         }
     }
 
-   /* public void SetupButton(bool playeraccept,Alien currentAlien)
-    {
-               acceptbutton.onClick.RemoveAllListeners();
-                denybutton.onClick.AddListener(delegate
-                
-            {
-                ZoomIn(currentAlien);
-            });
-    }
-*/
+
 }
