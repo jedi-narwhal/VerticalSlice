@@ -60,7 +60,14 @@ Here is the new content I added since last milestone. First, I added a "click on
 An NPC (alien)  is displayed and arrives in the queue with a list of traits to check for.The player examines the NPC in normal view and xray view activated by clicking on it. In addition, a pop up view shows a specfic body part related to what you are suppose to investigate.The player makes a decision: let the NPC through (it is correct) or flag them as an anomaly (it is wrong).The result is scored: correct calls earn points, false positives and missed anomalies are penalized. The NPC leaves the queue and the next appears. After all NPCs in the shift queue have been processed, the shift ends and the player is either fired or promoted based their score. 
 This relates to my Vertical Slice due to the fact that there is an NPC that you have to click on to inspect. The body parts will also pop up. I also added that you can do an x ray view in subsitution for the fog, because I relized the fog wouldn't be using a shade and I needed one. In addition, is scored whether you let the right one through and deny the right ones. Also, at the end of the "shift" you are either fired or promoted.
 It illistates to the player that what the full game would be like because it includes all the mechanics, ui, scoring system. The only thing you would be adding to the full game is more NPCs. 
+### Question #2: Activating/Deactivating Rendering Effect
 
+<img width="536" height="386" alt="Screenshot 2026-05-30 at 6 49 51 PM" src="https://github.com/user-attachments/assets/1bce0385-efef-4b34-a66e-b53b1fc03645" />
+
+
+<img width="750" height="587" alt="Screenshot 2026-05-30 at 6 49 28 PM" src="https://github.com/user-attachments/assets/d4583259-3f96-477b-9f60-1ce37bf73cb3" />
+
+Here is how I activate and deactivate my rendering effect. First, is activating it. I serialized the material in this inspector so I can put my shader in there. Then created a method to change the alien's material. This method is excuted when I click on the alien. Then, here is how I deactivate it. I do this through visual scripting because it is only exclusive through the player inspection state. As the visual scripting is exiting the player inspection state via the button click of the accept or deny button an event the custom event is triggered. In this event, I set the material back to the default sprite and then the state transititon happens.
 ## Open-source assets
 ### Audio: 
 - https://www.youtube.com/watch?v=XuzWi92C8Bw
