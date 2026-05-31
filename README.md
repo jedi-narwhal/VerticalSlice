@@ -54,9 +54,25 @@ Here are the improvements I made since last playtesting. First, I made the npcs 
 ### Question #3: Content
 Here is the new content I added since last milestone. First, I added a "click on the alien to inspect" ui. I found that in my milestone 2 build, people were having trouble to know when to click the alien. I also added 2 new npcs. This gives the player more chances to play the game. I also added the shader. My shader activates when you click on it and deactivates click accept or deny. I also cleaned up the checklist text. Specfically, I put a new background behind it, made it more like a list, and added it so you are inspecting 3 bullet points for each npc. I also had these bullet points include things to inspect in x-ray view. 
 
-## Milestone 4 Devlog
-Milestone 4 Devlog goes here.
+
 ## Final Devlog
-Final Devlog goes here.
+### Question #1: Core Gameloop & Vertical Slice
+An NPC (alien)  is displayed and arrives in the queue with a list of traits to check for.The player examines the NPC in normal view and xray view activated by clicking on it. In addition, a pop up view shows a specfic body part related to what you are suppose to investigate.The player makes a decision: let the NPC through (it is correct) or flag them as an anomaly (it is wrong).The result is scored: correct calls earn points, false positives and missed anomalies are penalized. The NPC leaves the queue and the next appears. After all NPCs in the shift queue have been processed, the shift ends and the player is either fired or promoted based their score. 
+This relates to my Vertical Slice due to the fact that there is an NPC that you have to click on to inspect. The body parts will also pop up. I also added that you can do an x ray view in subsitution for the fog, because I relized the fog wouldn't be using a shade and I needed one. In addition, is scored whether you let the right one through and deny the right ones. Also, at the end of the "shift" you are either fired or promoted.
+It illistates to the player that what the full game would be like because it includes all the mechanics, ui, scoring system. The only thing you would be adding to the full game is more NPCs. 
+
 ## Open-source assets
-- Cite any external assets used here!
+### Audio: 
+- https://www.youtube.com/watch?v=XuzWi92C8Bw
+### Sprites: 
+- https://opengameart.org/content/3x-updated-32x32-scifi-roguelike-enemies
+### Backgound pics:
+- Door: https://www.thesciencewriter.org/borders-stories/better-woman-ai-companion-fiction
+- Lab: https://roomescapeartist.com/2022/04/22/the-secret-chambers-arlington-the-area-51-adventure-review/
+
+### UI
+- Text Dashboard: https://www.shutterstock.com/image-vector/digital-design-frame-gaming-menu-touching-2527862943?dd_referrer=
+
+
+
+
