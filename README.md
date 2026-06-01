@@ -27,7 +27,7 @@ Here is how my visual scripting graph works. The purpose of my visual scripting 
 Yes, I feel like my breakdowns helped me with the process of creating this feature. I think this was helpful because I was able to break down a complaicated problem into more, easier steps. I feel like the step on hooking it up in the editor was also helpful because I tend to get confused on that. To improve the breakdowns, I list spcific ways i can break them into actual method that I'm going to use.
 
 ### Question #3: Bridging Visual Scripting
-Here is how I bridge visual scripting in my code. I bridge my thing in visual scripting in my statemachine during the NPC arrival state. Specifcally, In the "on enter state" it sets the location the beginning of the door and updates to the next alien and also updates the text with that aliens description. The method I bridged with is the Next Alien method I coded in my C# graph which checks for if there is aliens, and if there is updates with the next Alien Scirptable Object. In this bridge, I am calling a C# method from the graph in order to get the next Alien so it can update the sprite and the description with information from the scriptable object. 
+Here is how I bridge visual scripting in my code. I bridge my thing in visual scripting in my statemachine during the NPC arrival state. Specifcally, In the "on enter state" it sets the location the beginning of the door and updates to the next alien and also updates the text with that aliens description. The method I bridged with is the Next Alien method I coded in my C# graph which checks for if there is aliens, and if there is updates with the next Alien Scriptable Object. In this bridge, I am calling a C# method from the graph in order to get the next Alien so it can update the sprite and the description with information from the scriptable object. 
 <img width="1190" height="654" alt="Screenshot 2026-05-13 at 12 14 33 PM" src="https://github.com/user-attachments/assets/eff38454-eca6-4a66-aeac-d07c1bd053d3" />
 
 ### Question #4: Unity System
@@ -35,7 +35,6 @@ My Unity sytem I chose to grade is after all of the NPCs visit, the player is re
 ## Milestone 3 Devlog
 ### Question #1: Shader Graph
 Here is a what is going on in my shader graph. The base color slot receives a color input that has been inverted by a one minus node after being sampled from the RGBA input from the main(T2) texture property. Also, the alpha gets the transparency,from the color inversionfrom the sample texture 2d node's Alpha input. Last, the alpha clip threshold is set to 0.1 so it creates a thin outline on the sprite rather than  the whole image being inverted. 
-
 Graph:
 
 <img width="590" height="412" alt="Screenshot 2026-05-27 at 10 59 26 AM" src="https://github.com/user-attachments/assets/4ba2cdfc-af66-4296-9fbc-f64bd63144a7" />
@@ -68,6 +67,12 @@ It illistates to the player that what the full game would be like because it inc
 <img width="750" height="587" alt="Screenshot 2026-05-30 at 6 49 28 PM" src="https://github.com/user-attachments/assets/d4583259-3f96-477b-9f60-1ce37bf73cb3" />
 
 Here is how I activate and deactivate my rendering effect. First, is activating it. I serialized the material in this inspector so I can put my shader in there. Then created a method to change the alien's material. This method is excuted when I click on the alien. Then, here is how I deactivate it. I do this through visual scripting because it is only exclusive through the player inspection state. As the visual scripting is exiting the player inspection state via the button click of the accept or deny button an event the custom event is triggered. In this event, I set the material back to the default sprite and then the state transititon happens.
+
+## Question #3: Breaking down larger processes to specific systems
+I feel like I use a little bit of both systems. To explain, I like to have the bubble diagram that allows me to see the overall systems of the game. I also like to use the task list to see how to break down a specific feature in the bubble diagram. I plan incoporating both to make sure I created the feature correctly and so I see and understand on how it fits in the bigger picture. I feel like breaking the smaller pieces allows me to figure out features one at a time rather then jumping to random places to figure out what to do.
+
+Here is how my process is in terms of doing the Vertical Slice. The beginning was a mess. I realized by week 4, I made a terrible bubble diagram and my code for my game was all over the place. I was also very confused and panicked. Then I sat down for one day and then rewrote my whole bubble diagram and adjusted my code accordingly. From then on, every new feature I created I broke down and saw how it would play into my bubble diagram. This went a lot better and I would like to carry this with me. Toward to end, I felt really good about my methods.
+
 ## Open-source assets
 ### Audio: 
 - https://www.youtube.com/watch?v=XuzWi92C8Bw
