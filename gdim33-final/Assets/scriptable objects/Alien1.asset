@@ -15,10 +15,12 @@ MonoBehaviour:
   npc_name: 'zod '
   npc: {fileID: 351731270, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
   body_part: {fileID: -1599873955, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: '- black brain
+  description: 'CHECKLIST
+
+    - black brain
 
     - a blue eye
 
-    - a brown internal computing
-    system'
+    - a brown internal
+    computing system'
   is_admitted: 1

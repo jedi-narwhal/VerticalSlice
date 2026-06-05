@@ -15,10 +15,12 @@ MonoBehaviour:
   npc_name: Crabby
   npc: {fileID: 2055907782, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
   body_part: {fileID: 965871795, guid: 7aba86daf3dfe4ecbb63e0731c820e69, type: 3}
-  description: '- has a dark purple reflected spot on its body
+  description: 'CHECKLIST
 
-    -has nothing
-    in its body
+    - has a dark purple reflected spot on its body
+
+    -has
+    nothing in its body
 
     - has one eye that is blue'
   is_admitted: 0
